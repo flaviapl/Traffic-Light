@@ -1,10 +1,11 @@
-# Hello World with React boilerplate
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
-  </a>
-</p>
+Para la realización del semaforo hemos creado dos div uno para el palo y el otro para el semaforo y dentro de ese ultimo hemos creado otros 3 divs hijos para las 3 luces roja, naranja y verde .
+Hemos creado tambièn 3 clases in CSS para cada uno de ellos para darle color y forma: .lightRed .lightOrange  y .lightGreen.
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
+Se ha creado un component TrafficLight.jsx y dentro de la función con el mismo nombre se ha creado la variable de estado  useState  [color, setColor] .
+
+ A cada div hijo se ha añadido la clase de .css +  un ternario que se encarga de establecer que si el color es del mismo color de la clase de css entonces que brille si no no " " y se le ha añadito un onClick para que la función se active al click sobre el color elegido del semaforo. 
+
+ <img src="/workspace/react-hello/src/img/2022-07-24_18h34_36.png">
 
 ##### Download the boilerplate using git
 
